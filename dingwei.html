@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>定位和居中</title>
+	<style>
+	 #container{
+	 	width: 400px;
+	 	height: 200px;
+	 	overflow: hidden;
+	 	position: absolute;
+	 	top: 50%;
+	 	left: 50%;
+        margin-top: -200px;
+	 	margin-left: -100px;
+	 	background: #DDDDDD;
+	 }
+	 #top{
+	 	width: 100px;
+	 	height: 100px;
+	 	position: absolute;
+	 	margin-left: -50px;
+	 	margin-top: -50px;
+	 	-moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+	 	border-radius: 50px;
+	 	background: #FFFF00;
+	 }
+	  #buttom{
+	 	width: 100px;
+	 	height: 100px;
+	 	position: absolute;
+	 	margin-top: 150px;
+	 	margin-left: 350px;
+	 	-moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+	 	border-radius: 50px;
+	 	background: #FFFF00;
+	 }
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="top"></div>
+		<div id="buttom"></div>
+	</div>
+</body>
+</html>
