@@ -1,0 +1,22 @@
+.check{
+      	font-size: 25px;
+      	font-weight: bold;
+
+      }
+      .check tr{
+      	height: 200px;
+      	line-height: 200px;
+      }
+      .check .txt{
+        width: 400px;
+        height: 50px;
+        border: 1px solid red;
+      }
+      .check .btn{
+      	width: 80px;
+      	height: 60px;
+        font-size: 30px;
+      	font-weight: bold;
+      	color: #ffffff;
+      	background: blue;
+      }
