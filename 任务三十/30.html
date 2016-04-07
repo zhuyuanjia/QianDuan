@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>多个表单项的动态校验</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<form action="#" id="list">
+		<table>
+			<tr>
+				<td><lable for="name">名称</lable></td>
+				<td><input type="text" id="name" onfocus="nameTitle();" onblur="checkName();" placeholder="请输入姓名"><span id="namePoint"></span></td>
+			</tr>
+			<tr>
+				<td><lable>密码</lable></td>
+				<td><input type="password" id="pass"  placeholder="请输入密码" onfocus="passTitle()" onblur="checkPass()"><span id="passPoint" class="passPoint"></span></td>
+			</tr>
+			<tr>
+				<td><lable>确认密码</lable></td>
+				<td><input type="password" id="passt" placeholder="请再次输入相同密码" onfocus="passtTitle()" onblur="checkPasst()"><span id="passtPoint" class="passtPoint"></span></td>
+			</tr>
+			<tr>
+				<td><lable>邮箱</lable></td>
+				<td><input type="text" id="email" placeholder="请输入邮箱" onfocus="emailTitle()"  onblur="checkEmail()"><span id="emailPoint" class="emailPoint"></span></td>
+			</tr>
+			<tr>
+				<td><lable>手机</lable></td>
+				<td ><input type="text" id="phone" placeholder="请输入手机号码" onfocus="phoneTitle()" onblur="checkPhone()"><span id="phonePoint" class="phonePoint"></span></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" vale="提交" id="sub"></td>
+			</tr>
+		</table>
+	</form>
+	<script src="js/index.js"></script>
+</body>
+</html>

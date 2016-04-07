@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+    border: 0;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+body{
+	background: #E0FFFF;
+}
+/*#list table{
+	margin: 0 auto;
+}*/
+#list tr{
+	height: 100%;
+	height: 80px;
+}
+#list tr lable{
+	font-size: 18px;
+	font-weight: bold;
+}
+#name,#pass,#passt,#email,#phone{
+	width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #000000;
+}
+#sub{
+	width: 80px;
+	height: 40px;
+	background: #436EEE;
+	position: relative;
+	margin-left: 225px;
+	border-radius: 8px;
+}
+
+#list span{
+	color: #aaa;
+	font-size: 14px;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -300px;
+}
